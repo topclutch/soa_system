@@ -10,8 +10,7 @@ dotenv.config();
 const connectDB = async () => {
   try {
     // IMPORTANTE: Asegúrate de que tu MONGO_URI incluya la base de datos soa_system
-    // Ejemplo: mongodb+srv://usuario:password@cluster.mongodb.net/soa_system?retryWrites=true&w=majority
-    
+   
     console.log("🔄 Conectando a MongoDB Atlas...");
     console.log(`📝 URI: ${process.env.MONGO_URI.replace(/\/\/[^:]+:[^@]+@/, '//***:***@')}`);
     
@@ -34,9 +33,6 @@ const connectDB = async () => {
     await Sale.deleteMany({});
     console.log("✅ Datos anteriores eliminados");
 
-    // ----------------------
-    // 2️⃣ Crear roles
-    // ----------------------
     console.log("📝 Creando roles...");
     const defaultRoles = [
       {
