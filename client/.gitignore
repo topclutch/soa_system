@@ -1,0 +1,31 @@
+# -------------------------
+# Node.js dependencies
+# -------------------------
+node_modules/
+
+# -------------------------
+# Environment files
+# -------------------------
+.env
+.env.*              # cualquier otro .env local
+
+# -------------------------
+# Build / output
+# -------------------------
+dist/
+build/
+
+# -------------------------
+# IDE / editor
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+
+# -------------------------
+# Optional / logs
+# -------------------------
+npm-debug.log
+yarn-error.log
+*.log
+
