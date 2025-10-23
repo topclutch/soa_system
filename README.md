@@ -483,5 +483,3 @@ Sample token payload (JSON):
 
 ---
 
-## 📜 License
-MIT Licens
