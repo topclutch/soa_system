@@ -20,13 +20,13 @@ It includes a React/Vite frontend and two backends: Node.js (Users & Sales) and 
 
 > Click any screenshot to open the full-resolution image.
 
-### Dashboard
-[![Dashboard](img/dashboard.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg
-
 ### Login
 [![Login](img/login.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/login.jpeg)  
 **Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/login.jpeg
+
+### Dashboard
+[![Dashboard](img/dashboard.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg)  
+**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg
 
 ### Productos
 [![Productos](img/productos.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/productos.jpeg)  
