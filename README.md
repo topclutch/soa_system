@@ -16,6 +16,32 @@ It includes a React/Vite frontend and two backends: Node.js (Users & Sales) and 
 
 ---
 
+## 🖼️ Screenshots
+
+> Click any screenshot to open the full-resolution image.
+
+### Login
+[![Login](img/login.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/login.jpeg)  
+
+### Dashboard
+[![Dashboard](img/dashboard.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg)  
+
+### Products
+[![Productos](img/productos.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/productos.jpeg)  
+
+### Register
+[![Register](img/register.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/register.jpeg)  
+
+### Reports
+[![Reportes](img/reportes.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/reportes.jpeg)  
+
+### Users
+[![Usuarios](img/usuarios.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/usuarios.jpeg)  
+
+### Sales
+[![Ventas](img/ventas.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/ventas.jpeg)  
+
+---
 ## ⚙️ Components
 
 ### 1️⃣ Frontend (client/)
@@ -454,77 +480,6 @@ Sample token payload (JSON):
 ## 📚 Swagger / API Docs (examples)
 - Backend 1: http://localhost:3001/api-docs  
 - Backend 2: http://localhost:5000/api-docs/
-
----
-
-## 🔎 Usage Examples (JavaScript fetch)
-
-Authentication flow:
-    // 1. Login
-    const loginResponse = await fetch('http://localhost:3001/api/auth/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email: 'seller@example.com',
-        password: 'password123'
-      })
-    });
-
-    const { token } = await loginResponse.json();
-
-    // 2. Use token for protected endpoints
-    const salesResponse = await fetch('http://localhost:3001/api/sales', {
-      headers: { 'Authorization': `Bearer ${token}` }
-    });
-
-Create a sale:
-    const saleData = {
-      products: [
-        {
-          productId: 1,
-          name: 'iPhone 14 Pro',
-          quantity: 1,
-          price: 1299.99
-        }
-      ],
-      notes: 'Urgent delivery'
-    };
-
-    const response = await fetch('http://localhost:3001/api/sales', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(saleData)
-    });
-
----
-
-## ✅ Recommended .env.example (create in each service)
-For backend1 (.env.example):
-    PORT=3001
-    MONGODB_URI=mongodb://localhost:27017/soa_db
-    JWT_SECRET=your_jwt_secret
-    NODE_ENV=development
-
-For backend2 (.env.example):
-    PORT=5000
-    DATABASE_URI=mysql://user:pass@localhost:3306/soa_db
-    SECRET_KEY=your_secret_key
-    FLASK_ENV=development
-
-Frontend (.env.example):
-    VITE_API_USERS=http://localhost:3001/api
-    VITE_API_PRODUCTS=http://localhost:5000/api
-
----
-
-## 🤝 Contributing
-1. Fork the repository  
-2. Create a feature branch:    git checkout -b feature/my-feature  
-3. Commit your changes and push  
-4. Open a Pull Request describing your changes
 
 ---
 
