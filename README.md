@@ -26,19 +26,19 @@ It includes a React/Vite frontend and two backends: Node.js (Users & Sales) and 
 ### Dashboard
 [![Dashboard](img/dashboard.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg)  
 
-### Productos
+### Products
 [![Productos](img/productos.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/productos.jpeg)  
 
 ### Register
 [![Register](img/register.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/register.jpeg)  
 
-### Reportes
+### Reports
 [![Reportes](img/reportes.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/reportes.jpeg)  
 
-### Usuarios
+### Users
 [![Usuarios](img/usuarios.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/usuarios.jpeg)  
 
-### Ventas
+### Sales
 [![Ventas](img/ventas.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/ventas.jpeg)  
 
 ---
