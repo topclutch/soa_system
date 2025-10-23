@@ -22,31 +22,24 @@ It includes a React/Vite frontend and two backends: Node.js (Users & Sales) and 
 
 ### Login
 [![Login](img/login.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/login.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/login.jpeg
 
 ### Dashboard
 [![Dashboard](img/dashboard.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/dashboard.jpeg
 
 ### Productos
 [![Productos](img/productos.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/productos.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/productos.jpeg
 
 ### Register
 [![Register](img/register.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/register.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/register.jpeg
 
 ### Reportes
 [![Reportes](img/reportes.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/reportes.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/reportes.jpeg
 
 ### Usuarios
 [![Usuarios](img/usuarios.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/usuarios.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/usuarios.jpeg
 
 ### Ventas
 [![Ventas](img/ventas.jpeg)](https://raw.githubusercontent.com/topclutch/soa_system/main/img/ventas.jpeg)  
-**Full-size:** https://raw.githubusercontent.com/topclutch/soa_system/main/img/ventas.jpeg
 
 ---
 ## ⚙️ Components
